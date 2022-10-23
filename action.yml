@@ -1,4 +1,4 @@
-name: 'Doxygen Action'
+name: 'Doxygen to GH-pages'
 description: 'Generate documentation on a commented project using doxygen'
 branding:
   icon: 'book-open'
