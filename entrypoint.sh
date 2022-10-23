@@ -30,7 +30,7 @@ PACKAGES="doxygen dia graphviz ttf-freefont $4"
 if [ "$BUILD_LATEX" = true ] ; then
   PACKAGES="$PACKAGES perl build-base texlive-full biblatex ghostscript"
 fi
-apk add $PACKAGES
+apt install $PACKAGES
 
 echo "::notice::You're on the bleeding edge of doxygen-action. To pin this version use: mattnotmitt/doxygen-action@$(doxygen --version)"
 
